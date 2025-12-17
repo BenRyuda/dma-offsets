@@ -4,14 +4,15 @@ namespace Offset
 constexpr uint64_t XenuineDecrypt = 0xF2B8D28;
 constexpr uint64_t UWorld = 0x10ABBF18;
 constexpr uint64_t GNames = 0x10D0B1C0;
-constexpr uint64_t GNamesPtr = 0x8;
+constexpr uint64_t GNamesPtr = 0x8; 
+ 
 constexpr uint64_t ChunkSize = 0x3E90;
-constexpr uint64_t GObjects = 0x10A7D098;
-constexpr uint64_t CurrentLevel = 0x2C8;
+constexpr uint64_t GObjects = 0x10A7D098; 
+constexpr uint64_t CurrentLevel = 0x7A0;
 constexpr uint64_t Actors = 0xF8;
-constexpr uint64_t ActorsForGC = 0xb0;
+constexpr uint64_t ActorsForGC = 0xb0; 
 constexpr uint64_t GameInstance = 0x90;
-constexpr uint64_t GameState = 0x770;
+constexpr uint64_t GameState = 0x9E0;
 constexpr uint64_t LocalPlayer = 0x48;
 constexpr uint64_t PlayerController = 0x30;
 constexpr uint64_t AcknowledgedPawn = 0x4B0;
@@ -211,6 +212,7 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
 
