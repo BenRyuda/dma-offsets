@@ -9,7 +9,7 @@ constexpr uint64_t GNamesPtr = 0x8;
 constexpr uint64_t ChunkSize = 0x3e28;
 constexpr uint64_t GObjects = 0x10A7D098; 
 constexpr uint64_t CurrentLevel = 0x3a8;
-constexpr uint64_t Actors = 0x38;
+constexpr uint64_t Actors = 0x1E8;
 constexpr uint64_t ActorsForGC = 0xb0; 
 constexpr uint64_t GameInstance = 0x200;
 constexpr uint64_t GameState = 0x9E0;
@@ -218,6 +218,7 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
 
